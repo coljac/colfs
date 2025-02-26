@@ -8,8 +8,14 @@ for id in list_of_ids:
     process_files(id)
     colfs --archive bigfiles.colfs dehydrate # will delete any files that are safe in the archive
 ```
+**Install**
 
-Help:
+```
+go install github.com/coljac/colfs@latest
+```
+Or download a binary.
+
+**Help**:
 
 ```
 colfs is a CLI tool for combining multiple files into a single blob with an index,
